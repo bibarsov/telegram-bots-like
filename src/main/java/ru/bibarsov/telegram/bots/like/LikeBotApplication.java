@@ -111,7 +111,7 @@ public class LikeBotApplication {
         );
 
         //command handlers
-        Handler<?> defaultHandler = new DefaultHandler(
+        Handler defaultHandler = new DefaultHandler(
             updateCountersService,
             messageService,
             publicationDataStorage,

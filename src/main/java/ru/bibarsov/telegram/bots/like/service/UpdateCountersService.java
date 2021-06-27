@@ -1,17 +1,17 @@
 package ru.bibarsov.telegram.bots.like.service;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import ru.bibarsov.telegram.bots.client.dto.EditMessageReplyMarkup;
+import ru.bibarsov.telegram.bots.client.repository.client.TelegramBotApi;
+import ru.bibarsov.telegram.bots.common.util.Action;
 import ru.bibarsov.telegram.bots.like.entity.Publication;
 import ru.bibarsov.telegram.bots.like.entity.UserChoice;
 import ru.bibarsov.telegram.bots.like.repository.storage.InlineMessageStorage;
+import ru.bibarsov.telegram.bots.like.repository.storage.PublicationStorage;
 import ru.bibarsov.telegram.bots.like.repository.storage.UserChoiceStorage;
 import ru.bibarsov.telegram.bots.like.service.handler.DefaultHandler;
 import ru.bibarsov.telegram.bots.like.value.ReactionMode;
-import ru.bibarsov.telegram.bots.client.dto.EditMessageReplyMarkup;
-import ru.bibarsov.telegram.bots.client.repository.client.TelegramBotApi;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import ru.bibarsov.telegram.bots.like.repository.storage.PublicationStorage;
-import ru.bibarsov.telegram.bots.like.util.Action;
 
 import javax.annotation.ParametersAreNonnullByDefault;
 import java.util.concurrent.BlockingQueue;

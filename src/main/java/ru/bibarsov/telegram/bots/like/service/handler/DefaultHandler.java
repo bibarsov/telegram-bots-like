@@ -110,7 +110,7 @@ public class DefaultHandler extends Handler {
                             default:
                                 throw new IllegalStateException("Unexpected ReactionMode: " + reactionMode);
                         }
-                        messageService.scheduleAnswerCallbackuery(new CallbackQueryAnswer(
+                        messageService.scheduleAnswerCallbackQuery(new CallbackQueryAnswer(
                             callbackQuery.id,
                             alertText,
                             true //showAlert

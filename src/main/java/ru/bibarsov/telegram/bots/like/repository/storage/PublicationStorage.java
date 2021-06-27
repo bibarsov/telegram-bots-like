@@ -2,9 +2,9 @@ package ru.bibarsov.telegram.bots.like.repository.storage;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import ru.bibarsov.telegram.bots.common.util.Action;
 import ru.bibarsov.telegram.bots.like.entity.Publication;
 import ru.bibarsov.telegram.bots.like.repository.dao.PublicationDao;
-import ru.bibarsov.telegram.bots.like.util.Action;
 
 import javax.annotation.Nullable;
 import javax.annotation.ParametersAreNonnullByDefault;

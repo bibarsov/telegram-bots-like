@@ -3,8 +3,8 @@ package ru.bibarsov.telegram.bots.like.repository.storage;
 import org.apache.commons.lang3.tuple.Pair;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import ru.bibarsov.telegram.bots.common.util.Action;
 import ru.bibarsov.telegram.bots.like.repository.dao.InlineMessageDao;
-import ru.bibarsov.telegram.bots.like.util.Action;
 
 import javax.annotation.ParametersAreNonnullByDefault;
 import java.util.HashMap;
